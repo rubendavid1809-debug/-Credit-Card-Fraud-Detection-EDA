@@ -1,2 +1,46 @@
-# Credit-Card-Fraud-Detection-EDA
-Exploratory Data Analysis (EDA) of Credit Card Fraud Dataset. Análisis exploratorio de datos sobre fraude con tarjetas de crédito utilizando Python.
+# 💳 Credit Card Fraud Detection – Exploratory Data Analysis (EDA)
+
+## 📖 Descripción
+
+Este proyecto desarrolla un Análisis Exploratorio de Datos (EDA) sobre un conjunto de transacciones con tarjetas de crédito con el objetivo de identificar patrones asociados a operaciones fraudulentas.
+
+El análisis permite comprender la estructura del dataset, detectar el fuerte desbalance de clases y explorar variables potencialmente relevantes para futuros modelos predictivos.
+
+---
+
+## 📂 Dataset
+
+El dataset contiene 284.807 transacciones y 31 variables numéricas.
+
+Las variables V1–V28 fueron transformadas mediante Análisis de Componentes Principales (PCA) para proteger información sensible.
+
+Fuente:
+Kaggle – Credit Card Fraud Detection  
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+---
+
+## 🎯 Objetivos del Análisis
+
+- Comprender la estructura del dataset
+- Analizar el desbalance de clases
+- Explorar estadísticas descriptivas
+- Identificar variables con mayor correlación con fraude
+
+---
+
+## 🛠 Tecnologías Utilizadas
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook / Google Colab
+
+---
+
+## 🚀 Próximos Pasos
+
+- Aplicar técnicas de balanceo de clases
+- Construir modelos de clasificación (Logistic Regression, Random Forest)
+- Evaluar con métricas adecuadas para datos desbalanceados (Recall, Precision, F1-score)
